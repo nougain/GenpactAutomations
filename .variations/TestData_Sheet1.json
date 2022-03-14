@@ -1,0 +1,1 @@
+[{"City":"Pune","ExpectedResult_Low":"5","ExpectedResult_High":"48"},{"City":"Chicago","ExpectedResult_Low":"-32","ExpectedResult_High":"45"},{"City":"Crazy","ExpectedResult_Low":"ERROR","ExpectedResult_High":"ERROR"},{"City":"Dubai","ExpectedResult_Low":"0","ExpectedResult_High":"53"}]

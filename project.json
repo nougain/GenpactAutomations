@@ -1,0 +1,83 @@
+{
+  "name": "GenTravelDesk",
+  "description": "Genpact Travel Desk Automation",
+  "main": "TravelDesk.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.Testing.Activities": "[1.4.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a2f3290e-f255-407d-a36b-ecf8e3c58130",
+        "fileName": "TestCases\\TestCase01-WeatherForecast.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "59e9ff8e-46e8-40e8-ba36-3f3d845498f5",
+        "fileName": "TestCases\\TestCase03-WeatherForecast.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f074c3cf-1da3-4628-b434-dea92abf23aa",
+        "fileName": "TestCases\\TestCase02-WeatherForecast.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "324eeec0-53b2-4a89-944e-0c6c0d4c8d88",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "fileName": "TestCases\\TestCase04-WeatherForecast-TD.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TravelDesk.xaml",
+      "uniqueId": "acfa3f14-1151-412d-9193-fa27a2e0c8fd",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/Genpact_logo_1200px.svg.png"
+  },
+  "targetFramework": "Legacy"
+}
