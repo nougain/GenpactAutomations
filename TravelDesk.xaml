@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1126,1643</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1065,1643</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TravelDesk_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="64">
@@ -76,6 +76,7 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="TravelDesk" sap:VirtualizedContainerService.HintSize="847,1578" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -178,7 +179,7 @@
                               <OutArgument x:TypeArguments="x:String">[Message]</OutArgument>
                             </Assign.To>
                             <Assign.Value>
-                              <InArgument x:TypeArguments="x:String">["Weather in " +City +" is " +Temperature +" degrees centigrade with condition as " +Condition +"."]</InArgument>
+                              <InArgument x:TypeArguments="x:String">["Weather in """ +City +""" is " +Temperature +" degrees centigrade with condition as """ +Condition +"""."]</InArgument>
                             </Assign.Value>
                           </Assign>
                         </Sequence>
